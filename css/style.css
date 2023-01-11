@@ -1,0 +1,383 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    background-color: #C5E4E7;
+    text-align: center;
+    padding-top: 110px;
+}
+
+header {
+    margin-bottom: 53px;
+}
+
+.calculator {
+    height: 315px;
+    width: 606px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 33px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding-top: 2%;
+}
+
+#form {
+    width: 98%;
+    padding: 0;
+    margin: 0;
+}
+
+#total {
+    width: 88%;
+    margin-left: 4%;
+    background-color: #00474B;
+    border-radius: 10px;
+    text-align: left;
+    height: 93%;
+    padding: 5%
+}
+
+.cajaT {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin-left: 6%;
+    margin-top: 10%;
+    color: #F3F8FB;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.margen {
+    margin-bottom: 20%;
+}
+
+.btn {
+    width: 29%;
+    background-color: #00474B;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    color: #FFFFFF;
+    margin: 10px;
+    margin-left: 0px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.valor {
+    width: 94%;
+    border: none;
+    background-color: #F3F8FB;
+    text-align: right;
+    height: 32px;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.cajas {
+    margin-bottom: 20px;
+}
+
+.caja2 {
+    margin-top: 30px;
+}
+
+.text {
+    background-color: #F3F8FB;
+    ;
+    color: rgb(104, 99, 99);
+    text-align: center;
+}
+
+.logo {
+    position: relative;
+    left: 10px;
+    width: 8px;
+    top: -30px;
+
+}
+
+.txt {
+    font-size: 10px;
+    margin: 0;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #677A7C;
+}
+
+span {
+    color: rgb(104, 99, 99);
+    text-align: center;
+}
+
+.valort {
+    background-color: transparent;
+    text-align: right;
+    border: none;
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+    color: #23C3AD;
+    letter-spacing: 2px;
+}
+
+#reset {
+    margin-top: 80px;
+    width: 100%;
+    height: 10%;
+    background-color: #0D686D;
+    border: none;
+    border-radius: 4px;
+    color: #00474B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+@media(max-width:650px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .calculator {
+        width: 80%;
+        display: block;
+        height: 100%;
+    }
+
+    #form {
+        width: 100%;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    .btn {
+        width: 44%;
+        background-color: #00474B;
+        border-radius: 5px;
+        border: none;
+        height: 40px;
+        color: #FFFFFF;
+        margin: 6px;
+        margin-left: 2px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cajas {
+        margin-bottom: 15px;
+    }
+
+    .caja2 {
+        margin-top: 30px;
+    }
+
+    .valor {
+        width: 94%;
+        border: none;
+        background-color: #F3F8FB;
+        text-align: right;
+        height: 20px;
+        border-radius: 3px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .logo {
+        position: relative;
+        left: -390px;
+        width: 8px;
+        top: 0px;
+    }
+
+    /* .logo {
+        position: relative;
+        left: 10px;
+        width: 8px;
+        top: -23px;
+
+    } */
+
+    #logo1 {
+        width: 65px;
+    }
+
+    header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #total {
+        width: 90%;
+        background-color: #00474B;
+        border-radius: 10px;
+        text-align: left;
+        height: 30%;
+        margin-left: 0%;
+    }
+
+    #reset {
+        margin-top: 10px;
+        width: 100%;
+        height: 15%;
+        background-color: #0D686D;
+        border: none;
+        border-radius: 4px;
+        color: #00474B;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .valort {
+        background-color: transparent;
+        text-align: right;
+        border: none;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #23C3AD;
+        letter-spacing: 2px;
+    }
+
+    .cajaT {
+        display: grid;
+        grid-template-columns: 30% 60%;
+        margin-left: 6%;
+        margin-top: 5%;
+        color: #F3F8FB;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+@media (max-width:500px) {
+    .logo {
+        position: relative;
+        left: 60px;
+        width: 8px;
+        top: -22px;
+    }
+
+}
+
+@media(max-width:350px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .calculator {
+        width: 80%;
+        display: block;
+        height: 100%;
+    }
+
+    #form {
+        width: 100%;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    .btn {
+        width: 44%;
+        background-color: #00474B;
+        border-radius: 5px;
+        border: none;
+        height: 30px;
+        color: #FFFFFF;
+        margin: 6px;
+        margin-left: 2px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cajas {
+        margin-bottom: 15px;
+    }
+
+    .caja2 {
+        margin-top: 30px;
+    }
+
+    .valor {
+        width: 94%;
+        border: none;
+        background-color: #F3F8FB;
+        text-align: right;
+        height: 20px;
+        border-radius: 3px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .logo {
+        position: relative;
+        left: 10px;
+        width: 8px;
+        top: -23px;
+
+    }
+
+    #logo1 {
+        width: 65px;
+    }
+
+    header {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #total {
+        width: 90%;
+        background-color: #00474B;
+        border-radius: 10px;
+        text-align: left;
+        height: 30%;
+        margin-left: 0%;
+    }
+
+    #reset {
+        margin-top: 30px;
+        width: 100%;
+        height: 15%;
+        background-color: #0D686D;
+        border: none;
+        border-radius: 4px;
+        color: #00474B;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .valort {
+        background-color: transparent;
+        text-align: right;
+        border: none;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #23C3AD;
+        letter-spacing: 2px;
+    }
+
+}
