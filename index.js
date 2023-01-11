@@ -11,6 +11,8 @@ window.addEventListener('load', () => {
     var ent_persons = document.querySelector('#persons');
     var ent_amount = document.querySelector('#amount');
     var ent_total = document.querySelector('#vtotal');
+    var btn_reset = document.querySelector('#reset');
+
     var subtotal = 0.00;
     var total = 0.00;
     var amount = 0.00;
@@ -50,6 +52,13 @@ window.addEventListener('load', () => {
     });
     btn_cincin.addEventListener('click', () => {
         calculate(0.55);
+    });
+        btn_reset.addEventListener('click', () => {
+        ent_persons.value = 0;
+        ent_bill.value = 0;
+        ent_total.value = "$0.00";
+        ent_amount.value = "$0.00";
+
     });
     ent_custom.addEventListener('keyup', () => {
         var val = ent_custom.value;
